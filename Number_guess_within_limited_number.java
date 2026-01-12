@@ -5,6 +5,7 @@ public class Number_guess_within_limited_number {
         Scanner input = new Scanner(System.in);
 //Here is the array of limited number
         int arr[] = {1, 2, 3, 4, 5};
+        //you can change the size of the array, it should still work for bigger array
         //len is the length of the array
         int len = arr.length;
         
@@ -56,3 +57,4 @@ public class Number_guess_within_limited_number {
         input.close();
     }
 }
+
