@@ -34,7 +34,7 @@ public class KIndofgame {
 			
 			 // Create a Scanner
 			 Scanner input = new Scanner(System.in);
-			
+			//iterating through every nested loop element 
 			 for (int i = 0; i < 5; i++) {
 			 System.out.println("Is your birthday in Set" + (i + 1) + "?");
 			 for (int j = 0; j < 4; j++) {
@@ -58,3 +58,4 @@ public class KIndofgame {
 	
 
 }
+
